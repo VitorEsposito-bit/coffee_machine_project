@@ -1,12 +1,15 @@
 # Coffee_Machine_Project
 Coffee Machine
+
 Este é um projeto simples, o qual simula uma máquina de café em Python.
-A máquina oferece três tipos de bebidas: espresso, latte e cappuccino. O usuário pode inserir moedas para comprar uma bebida e a máquina verifica se há recursos suficientes para preparar a bebida escolhida.
+A máquina oferece três tipos de bebidas: espresso, latte e cappuccino. 
+O usuário pode inserir moedas para comprar uma bebida e a máquina verifica se há recursos suficientes para preparar a bebida escolhida.
 
 
 Relatório: Exibe a quantidade atual de água, leite, café e dinheiro na máquina.
 Desligar: Desliga a máquina de café.
 Compra de bebidas: Permite ao usuário escolher entre espresso, latte ou cappuccino e pagar com moedas.
+
 Como usar
 Iniciar a máquina: Ao iniciar o script running_coffee_machine(), a máquina começará a funcionar e pedirá ao usuário para escolher uma ação.
 
@@ -21,6 +24,7 @@ Relatório: A qualquer momento, o usuário pode digitar report para ver a quanti
 Desligar a máquina: O usuário pode digitar off para desligar a máquina.
 
 Estrutura do Código
+
 Funções
 calculate_money(quarters, dimes, nickels, pennies, coins): Calcula o valor total do dinheiro inserido com base nas quantidades de cada tipo de moeda.
 
