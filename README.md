@@ -25,7 +25,7 @@ Desligar a máquina: O usuário pode digitar off para desligar a máquina.
 
 Estrutura do Código
 
-##Funções
+## Funções
 
 calculate_money(quarters, dimes, nickels, pennies, coins): Calcula o valor total do dinheiro inserido com base nas quantidades de cada tipo de moeda.
 
