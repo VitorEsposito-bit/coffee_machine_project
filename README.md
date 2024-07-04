@@ -22,8 +22,6 @@ Relatório: A qualquer momento, o usuário pode digitar report para ver a quanti
 
 Desligar a máquina: O usuário pode digitar off para desligar a máquina.
 
-Estrutura do Código
-
 ## Funções
 
 calculate_money(quarters, dimes, nickels, pennies, coins): Calcula o valor total do dinheiro inserido com base nas quantidades de cada tipo de moeda.
@@ -44,6 +42,6 @@ running_coffee_machine(): Função principal que controla a execução da máqui
 O código importa o módulo coffee_machine_menu, que defini os recursos iniciais, o menu das bebidas e os valores das moedas.
 
 
-Estrutura do Menu
+## Estrutura do Menu
 O módulo coffee_machine_menu contém um dicionário MENU com a estrutura das bebidas e seus respectivos custos e ingredientes, e um dicionário resources com a quantidade inicial de água, leite e café, e um dicionário coins com os valores das moedas.
 
