@@ -1,5 +1,4 @@
 # Coffee_Machine_Project
-## Coffee Machine
 
 Este é um projeto simples, o qual simula uma máquina de café em Python.
 A máquina oferece três tipos de bebidas: espresso, latte e cappuccino. 
