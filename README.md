@@ -1,47 +1,49 @@
-# Coffee_Machine_Project
+# Coffee Machine Project
 
-Este é um projeto simples, o qual simula uma máquina de café em Python.
-A máquina oferece três tipos de bebidas: espresso, latte e cappuccino. 
-O usuário pode inserir moedas para comprar uma bebida e a máquina verifica se há recursos suficientes para preparar a bebida escolhida.
+This is a simple project that simulates a coffee machine in Python.
+The machine offers three types of drinks: espresso, latte, and cappuccino.
+The user can insert coins to buy a drink and the machine checks if there are sufficient resources to prepare the chosen drink.
 
+## Features
 
-Relatório: Exibe a quantidade atual de água, leite, café e dinheiro na máquina.
-Desligar: Desliga a máquina de café.
-Compra de bebidas: Permite ao usuário escolher entre espresso, latte ou cappuccino e pagar com moedas.
+**Report:** Displays the current amount of water, milk, coffee, and money in the machine.
+**Turn Off:** Turns off the coffee machine.
+**Drink Purchase:** Allows the user to choose between espresso, latte, or cappuccino and pay with coins.
 
-## Como usar
-Iniciar a máquina: Ao iniciar o script running_coffee_machine(), a máquina começará a funcionar e pedirá ao usuário para escolher uma ação.
+## How to Use
 
-Escolher uma bebida: O usuário pode escolher entre espresso, latte ou cappuccino.
+**Start the machine:** When starting the script `running_coffee_machine()`, the machine will begin operating and ask the user to choose an action.
 
-Inserir moedas: Se a bebida estiver disponível, a máquina pedirá ao usuário para inserir moedas. O usuário deve informar a quantidade de cada tipo de moeda (quarters, dimes, nickels, pennies).
+**Choose a drink:** The user can choose between espresso, latte, or cappuccino.
 
-Processamento da transação: A máquina verifica se a quantidade de dinheiro inserida é suficiente para a compra. Se for, a máquina fornece a bebida e o troco, se houver. Se não for, a máquina informa que o dinheiro não é suficiente e devolve as moedas.
+**Insert coins:** If the drink is available, the machine will ask the user to insert coins. The user must provide the quantity of each type of coin (quarters, dimes, nickels, pennies).
 
-Relatório: A qualquer momento, o usuário pode digitar report para ver a quantidade atual de recursos na máquina.
+**Transaction processing:** The machine checks if the amount of money inserted is sufficient for the purchase. If so, the machine provides the drink and change, if any. If not, the machine informs that the money is insufficient and returns the coins.
 
-Desligar a máquina: O usuário pode digitar off para desligar a máquina.
+**Report:** At any time, the user can type `report` to see the current amount of resources in the machine.
 
-## Funções
+**Turn off the machine:** The user can type `off` to turn off the machine.
 
-calculate_money(quarters, dimes, nickels, pennies, coins): Calcula o valor total do dinheiro inserido com base nas quantidades de cada tipo de moeda.
+## Functions
 
-check_transaction(value, menu, coffee): Verifica se o valor inserido é suficiente para comprar a bebida escolhida.
+**`calculate_money(quarters, dimes, nickels, pennies, coins)`:** Calculates the total value of money inserted based on the quantities of each type of coin.
 
-process_coins(value, menu, coffee): Calcula e retorna o troco a ser devolvido ao usuário.
+**`check_transaction(value, menu, coffee)`:** Checks if the inserted value is sufficient to buy the chosen drink.
 
-print_report(resources, money): Exibe um relatório dos recursos atuais e do dinheiro na máquina.
+**`process_coins(value, menu, coffee)`:** Calculates and returns the change to be returned to the user.
 
-check_resources(coffee, resources, menu): Verifica se há recursos suficientes para preparar a bebida escolhida.
+**`print_report(resources, money)`:** Displays a report of current resources and money in the machine.
 
-calculate_resources(coffee, menu, resources): Atualiza os recursos da máquina após a preparação de uma bebida.
+**`check_resources(coffee, resources, menu)`:** Checks if there are sufficient resources to prepare the chosen drink.
 
-running_coffee_machine(): Função principal que controla a execução da máquina de café.
+**`calculate_resources(coffee, menu, resources)`:** Updates the machine's resources after preparing a drink.
 
-## Importações
-O código importa o módulo coffee_machine_menu, que defini os recursos iniciais, o menu das bebidas e os valores das moedas.
+**`running_coffee_machine()`:** Main function that controls the coffee machine's execution.
 
+## Imports
 
-## Estrutura do Menu
-O módulo coffee_machine_menu contém um dicionário MENU com a estrutura das bebidas e seus respectivos custos e ingredientes, e um dicionário resources com a quantidade inicial de água, leite e café, e um dicionário coins com os valores das moedas.
+The code imports the `coffee_machine_menu` module, which defines the initial resources, drink menu, and coin values.
 
+## Menu Structure
+
+The `coffee_machine_menu` module contains a `MENU` dictionary with the structure of drinks and their respective costs and ingredients, a `resources` dictionary with the initial amount of water, milk, and coffee, and a `coins` dictionary with coin values.
